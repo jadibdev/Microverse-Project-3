@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <h1>Hello world!</h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  </link>
+  <title>Personal portfolio</title>
+</head>
 
-    <!--
+<body>
+  <!--nav barr-->
+  <div style="background-color: #293342" id="navbar">
+    <div class="top_section">
+      <h2>Personal Portfolio</h2>
+      <ul class="nav">
+        <li><a href="#">About</a></li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
 
-    Hello Camper!
+  <div style="background-color: #293342;" id="welcome section">
+    <div class="hero_section">
+      <div style="max-width: 500px; margin-top: 50px; margin-bottom: 70px">
+        <h1>I love building<br />awesome websites</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+          optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+        <button id="signup">Request a quote</button>
+      </div>
+      <div style="background-color: grey; width: 500px; margin-top: 50px; margin-left: 30px; margin-bottom: 70px">
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+      </div>
+    </div>
+  </div>
+  <h1 style="text-align: center;">Projects.</h1>
+  <div class="grid-container" id="projects">
+    <div class="grid-item project-title">
+      <div style="width: 100px; height: 100px; border-radius: 7px; border: 1px solid #3883F6; margin: 0 auto;"></div>
+      <p style="font-size: 14px; width: 100px; margin: 0 auto; padding-top: 10px;"><a href="#">Project description</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <div style="width: 100px; height: 100px; border-radius: 7px; border: 1px solid #3883F6; margin: 0 auto"></div>
+      <p style="font-size: 14px; width: 100px; margin: 0 auto; padding-top: 10px"><a href="#">Project description</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <div style="width: 100px; height: 100px; border-radius: 7px; border: 1px solid #3883F6; margin: 0 auto"></div>
+      <p style="font-size: 14px; width: 100px; margin: 0 auto; padding-top: 10px"><a href="#">Project description</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <div style="width: 100px; height: 100px; border-radius: 7px; border: 1px solid #3883F6; margin: 0 auto"></div>
+      <p style="font-size: 14px; width: 100px; margin: 0 auto; padding-top: 10px"><a href="#">Project description</a>
+      </p>
+    </div>
+  </div>
 
-    - The freeCodeCamp Team
+  <div style="background-color: lightgray; margin-top: 50px;">
+    <div>
+      <p style="padding: 100px; font-size: 24px">“The people who are crazy enough to think they can change the world are
+        the ones who do.” <br />— Steve Jobs - Feb 22, 2019</p>
+    </div>
+  </div>
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+  <div>
+    <div
+      style="background-color: #3883F6; align-items: center; border-radius: 7px; display: flex; justify-content: space-around; padding: 50px; margin: 150px">
+      <div>
+        <h2 style="color: white">Would you like a quote for your project?</h2>
+        <p style="color: white">Sign up to get a quote in less than 24 hours!</p>
+      </div>
+      <div><button
+          style="color: white; padding: 7px; width: 100px; border-radius: 7px; border: 1px solid white; background-color: #3883F6;">Sign
+          up</button></div>
+    </div>
+  </div>
+
+  <div style="background-color: #293342;">
+    <div style=" margin-bottom: 0">
+      <p style="color: white; text-align: center">Copyright &copy The Odin Project 2021</p>
+      <a id="profile-link">Profile Link</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
 </html>
